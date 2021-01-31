@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>TriggerExcavator</defName>
+    <driverClass>JobDriver_UseItem</driverClass>
+    <reportString>triggering excavator drill.</reportString>
+  </JobDef>
+  <JobDef>
+    <defName>TriggerBomb</defName>
+    <driverClass>JobDriver_UseItem</driverClass>
+    <reportString>triggering bomb.</reportString>
+  </JobDef>
+</Defs>

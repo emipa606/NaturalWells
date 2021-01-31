@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Useless but making sure that geysers can't start with maps !-->
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/GenStepDef[defName = "SteamGeysers"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/MapGeneratorDef/genSteps/li[text()="SteamGeysers"]</xpath>
+  </Operation>
+  <!-- Add the vanilla work to the new eletric stonecutter !-->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/WorkGiverDef[defName = "DoBillsStonecut"]/fixedBillGiverDefs</xpath>
+    <value>
+      <li>TableEletricStonecutter</li>
+    </value>
+  </Operation>
+  <!-- Remove the new chunk of standard bill !-->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName = "Make_StoneBlocksAny"]/fixedIngredientFilter</xpath>
+    <value>
+      <disallowedThingDefs>
+        <li>ChunkMatrix</li>
+      </disallowedThingDefs>
+    </value>
+  </Operation>
+  <!-- Make the ground penetrating scanner linkable !-->
+  <!-- Game changing !-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName = "GroundPenetratingScanner"]/comps</xpath>
+        <value>
+          <li Class="CompProperties_Facility">
+            <maxSimultaneous>1</maxSimultaneous>
+            <maxDistance>99999</maxDistance>
+            <statOffsets>
+              <WorkTableWorkSpeedFactor>1</WorkTableWorkSpeedFactor>
+            </statOffsets>
+          </li>
+        </value>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName = "HiTechResearchBench"]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+        <value>
+          <li>GroundPenetratingScanner</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Cosmetic modifications !-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName = "GroundPenetratingScanner"]/description</xpath>
+    <value>
+      <description>A downward-facing penetrating radar, combined with sonar and magnetic imagers, allows you to detect (but not identify) minerals buried deep under the surface. Unlocks some research projects and increase the extraction speed of the powered drill. Requires a huge amount of electricity.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName = "GroundPenetratingScanner"]/placeWorkers</xpath>
+    <value>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </value>
+  </Operation>
+</Patch>

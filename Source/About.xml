@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<ModMetaData>
+  <name>Natural Wells (LateGame Solution)</name>
+  <author>Tremeloe</author>
+  <targetVersion>0.18.1722</targetVersion>
+  <description>Add simple and hard ways to produce vanilla resources in late game.
+
+� Steam geysers now are Natural Wells. They don't spawn on map anymore;
+� They are created after build a Excavator, trigger him and wait 3 days;
+� You can build awesome machines in natural wells.
+
+GENERAL CONTENT
+� Geothermal generator
+� Powered Drill
+� Steel Extractor
+� Uranium Power Cell
+� Overpressure Bomb
+� Eletric Stonecutter
+� Matrix Chunk
+
+COMPABILITIES
+� I don't recommend add this on existing saves (but maybe can works);
+� Works fine with other mods but needs patches to add new resources.</description>
+</ModMetaData>

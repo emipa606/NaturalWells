@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>SteamGeyser</defName>
+    <thingClass>Building</thingClass>
+    <description>Natural well rich in resources.</description>
+    <label>natural well</label>
+    <!--<designationCategory>Structure</designationCategory> For tests!-->
+    <category>Building</category>
+    <useHitPoints>False</useHitPoints>
+    <statBases>
+      <WorkToBuild>12000</WorkToBuild>
+      <!-- This value is used to descontruct !-->
+    </statBases>
+    <graphicData>
+      <texPath>nw_steamgeyser</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Transparent</shaderType>
+      <drawSize>4, 4</drawSize>
+    </graphicData>
+    <size>1,1</size>
+    <altitudeLayer>Floor</altitudeLayer>
+    <passability>Impassable</passability>
+    <building>
+      <isEdifice>false</isEdifice>
+      <claimable>false</claimable>
+      <deconstructible>true</deconstructible>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+  </ThingDef>
+</Defs>
