@@ -26,7 +26,6 @@
   <!-- Make the ground penetrating scanner linkable !-->
   <!-- Game changing !-->
   <Operation Class="PatchOperationSequence">
-    <success>Always</success>
     <operations>
       <li Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName = "GroundPenetratingScanner"]/comps</xpath>
@@ -35,11 +34,10 @@
             <maxSimultaneous>1</maxSimultaneous>
             <maxDistance>99999</maxDistance>
             <statOffsets>
-              <WorkTableWorkSpeedFactor>1</WorkTableWorkSpeedFactor>
+              <ResearchSpeedFactor>0.25</ResearchSpeedFactor>
             </statOffsets>
           </li>
         </value>
-        <success>Invert</success>
       </li>
       <li Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName = "HiTechResearchBench"]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
