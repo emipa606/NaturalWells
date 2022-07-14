@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Natural Wells (Continued)</name>
   <packageId>Mlie.NaturalWells</packageId>
@@ -11,24 +11,28 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Tremeloes mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1291975094
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
     [tr]
         [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
         [td][url=https://github.com/emipa606/NaturalWells][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
     [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 Add simple and hard ways to produce vanilla resources in late game.
 
 [h1]Natural Wells[/h1]
-Steam geysers now are Natural Wells. They don&apos;t spawn on map anymore;
+Steam geysers now are Natural Wells. They don't spawn on map anymore;
 They are created after build a Excavator, trigger him and wait for 3 days;
 You can build awesome machines in natural wells, like:
 
@@ -48,34 +52,34 @@ Require 1200w/h to produce 150 steel each two days. Deteriorate after 1 year.
 [b]Uranium Power Cell[/b] ([i]For generation of eletricty[/i])
 Produce 3000w/h. Consumes 220 uranium per year;
 Be careful, they are destroyed if stay empty;
-[i](don&apos;t must be placed on natural wells)[/i].
+[i](don't must be placed on natural wells)[/i].
 
 [b]Overpressure Bomb[/b] ([i]For BIG explosions[/i])
-This bomb don&apos;t trigger with damage (except EMP), only manually by colonists;
+This bomb don't trigger with damage (except EMP), only manually by colonists;
 Causes a big explosion which destroys everything in a large area.
 When you click on the bomb, you can see the range of the explosion.
-Walls can protect colonists, but armours and clothes don&apos;t prevent the death.
+Walls can protect colonists, but armours and clothes don't prevent the death.
 
 [b]Matrix Chunks and Eletric Stonecutter[/b]
-The &quot;Matrix Chunk&quot; is added. It&apos;s very resistant and can be transformed in other blocks;
+The "Matrix Chunk" is added. It's very resistant and can be transformed in other blocks;
 This chunk only can be founded in natural wells and extracted by powered drills;
 You need eletric stonecutter workbench to transform him into blocks;
 Also, this new workbench cuts other chunks 3 times faster than the vanilla stonecutter;
-[i](don&apos;t must be placed on natural wells)[/i].
+[i](don't must be placed on natural wells)[/i].
 
 [h1]Compabilities[/h1]
-I don&apos;t recommend add this on existing saves (but maybe can works);
+I don't recommend add this on existing saves (but maybe can works);
 Works fine with other mods but needs patches to add new modded resources to powered drill.
 
 [h1]Balance[/h1]
 This mod is supposed be difficult, but not impossible to play;
-[i]Why drills produce wood fro[/i]--NO, DON&apos;T DO THIS;
+[i]Why drills produce wood fro[/i]--NO, DON'T DO THIS;
 Feel free to suggest value changes on comments.
 
 [h1]Links[/h1]
  • [url=https://ludeon.com/forums/index.php?topic=38984.0]Forum[/url]
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
