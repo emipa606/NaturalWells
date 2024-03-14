@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <EffecterDef>
+    <defName>ExcavatorExplosion</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <moteDef>Mote_ExtinguisherPuff</moteDef>
+        <burstCount>
+          <min>2</min>
+          <max>4</max>
+        </burstCount>
+        <speed>
+          <min>0.8</min>
+          <max>1</max>
+        </speed>
+        <scale>
+          <min>2</min>
+          <max>4</max>
+        </scale>
+      </li>
+    </children>
+  </EffecterDef>
+</Defs>

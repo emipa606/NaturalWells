@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--Base Defs-->
+  <RecipeDef Name="PoweredDrillBase" Abstract="True">
+    <jobString>extracting minerals of a natural well.</jobString>
+    <effectWorking>Drill</effectWorking>
+    <workSkill>Mining</workSkill>
+    <workAmount>104000</workAmount>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workSkillLearnFactor>0.1</workSkillLearnFactor>
+    <recipeUsers>
+      <li>NW_PoweredDrill</li>
+    </recipeUsers>
+    <unfinishedThingDef>UnfinishedResourceDrill</unfinishedThingDef>
+  </RecipeDef>
+  <!--Powered Drill Recipes-->
+  <RecipeDef ParentName="PoweredDrillBase">
+    <defName>NW_ExtractWood</defName>
+    <label>drill wood</label>
+    <description>Drill wood from a natural weel.</description>
+    <workAmount>73000</workAmount>
+    <jobString>Drilling wood.</jobString>
+    <products>
+      <WoodLog>75</WoodLog>
+    </products>
+    <skillRequirements>
+      <Mining>12</Mining>
+    </skillRequirements>
+    <!-- 12, 15 e 18 -->
+  </RecipeDef>
+  <RecipeDef ParentName="PoweredDrillBase">
+    <defName>NW_ExtractChemfuel</defName>
+    <label>drill chemfuel</label>
+    <description>Drill chemfuel from a natural weel.</description>
+    <workAmount>72000</workAmount>
+    <jobString>Drilling chemfuel.</jobString>
+    <products>
+      <Chemfuel>75</Chemfuel>
+    </products>
+    <skillRequirements>
+      <Mining>12</Mining>
+    </skillRequirements>
+  </RecipeDef>
+  <RecipeDef ParentName="PoweredDrillBase">
+    <defName>NW_ExtractSteel</defName>
+    <label>drill steel</label>
+    <description>Drill steel from a natural weel.</description>
+    <jobString>Drilling steel.</jobString>
+    <workAmount>72000</workAmount>
+    <products>
+      <Steel>75</Steel>
+    </products>
+    <skillRequirements>
+      <Mining>12</Mining>
+    </skillRequirements>
+  </RecipeDef>
+  <RecipeDef ParentName="PoweredDrillBase">
+    <defName>NW_ExtractMatrix</defName>
+    <label>drill matrix chunks</label>
+    <description>Drill matrix chunks from a natural weel.</description>
+    <workAmount>72000</workAmount>
+    <jobString>Drilling matrix chunks.</jobString>
+    <products>
+      <ChunkMatrix>3</ChunkMatrix>
+    </products>
+    <skillRequirements>
+      <Mining>12</Mining>
+    </skillRequirements>
+  </RecipeDef>
+  <RecipeDef ParentName="PoweredDrillBase">
+    <defName>NW_ExtractPlasteel</defName>
+    <label>drill plasteel</label>
+    <description>Drill plasteel from a natural weel.</description>
+    <jobString>Drilling plasteel.</jobString>
+    <workAmount>104000</workAmount>
+    <products>
+      <Plasteel>75</Plasteel>
+    </products>
+    <skillRequirements>
+      <Mining>15</Mining>
+    </skillRequirements>
+    <researchPrerequisite>NW_ExtractRareMinerals</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="PoweredDrillBase">
+    <defName>NW_ExtractSilver</defName>
+    <label>drill silver</label>
+    <description>Drill silver from a natural weel.</description>
+    <jobString>Drilling silver.</jobString>
+    <workAmount>106000</workAmount>
+    <products>
+      <Silver>75</Silver>
+    </products>
+    <skillRequirements>
+      <Mining>15</Mining>
+    </skillRequirements>
+    <researchPrerequisite>NW_ExtractRareMinerals</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="PoweredDrillBase">
+    <defName>NW_ExtractGold</defName>
+    <label>drill gold</label>
+    <description>Drill gold from a natural weel.</description>
+    <jobString>Drilling gold.</jobString>
+    <workAmount>106000</workAmount>
+    <products>
+      <Gold>35</Gold>
+    </products>
+    <skillRequirements>
+      <Mining>18</Mining>
+    </skillRequirements>
+    <researchPrerequisite>NW_ExtractPreciousMinerals</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="PoweredDrillBase">
+    <defName>NW_ExtractJade</defName>
+    <label>drill jade</label>
+    <description>Drill jade from a natural weel.</description>
+    <jobString>Drilling jade.</jobString>
+    <workAmount>106000</workAmount>
+    <products>
+      <Jade>35</Jade>
+    </products>
+    <skillRequirements>
+      <Mining>18</Mining>
+    </skillRequirements>
+    <researchPrerequisite>NW_ExtractPreciousMinerals</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="PoweredDrillBase">
+    <defName>NW_ExtractUranium</defName>
+    <label>drill uranium</label>
+    <description>Drill uranium from a natural weel.</description>
+    <jobString>Drilling uranium.</jobString>
+    <workAmount>106000</workAmount>
+    <products>
+      <Uranium>35</Uranium>
+    </products>
+    <skillRequirements>
+      <Mining>18</Mining>
+    </skillRequirements>
+    <researchPrerequisite>NW_ExtractPreciousMinerals</researchPrerequisite>
+  </RecipeDef>
+</Defs>

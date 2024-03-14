@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>NW_OverpressureBomb</defName>
+    <label>overpressure bomb</label>
+    <description>A big bomb fueled by gas pressure from natural wells. When manually triggered or suffers EMP damage, causes a deadly explosion in a large area after a long delay. Doesn't active with other damages and don't causes fire.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>nw_overpressurebomb</texPath>
+      <drawSize>3.73, 3.73</drawSize>
+      <shadowData>
+        <volume>(2.2,4,2.5)</volume>
+        <offset>(0,4,-0.5)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.3,0,3,2.7)</rect>
+      </damageData>
+    </graphicData>
+    <size>3, 3</size>
+    <passability>Impassable</passability>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <drawerType>RealtimeOnly</drawerType>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <blockLight>true</blockLight>
+    <statBases>
+      <MaxHitPoints>450</MaxHitPoints>
+      <WorkToBuild>3200</WorkToBuild>
+      <Beauty>-15</Beauty>
+      <Flammability>0</Flammability>
+    </statBases>
+    <building>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <costList>
+      <Plasteel>250</Plasteel>
+      <Uranium>5</Uranium>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>11.9</explosiveRadius>
+        <explosiveDamageType>NW_OverpressureBomb</explosiveDamageType>
+        <startWickOnDamageTaken>
+          <li>EMP</li>
+        </startWickOnDamageTaken>
+        <chanceNeverExplodeFromDamage>1</chanceNeverExplodeFromDamage>
+        <destroyThingOnExplosionSize>999999</destroyThingOnExplosionSize>
+        <startWickHitPointsPercent>0</startWickHitPointsPercent>
+        <explosionEffect>GiantExplosion</explosionEffect>
+        <explosionSound>Explosion_GiantBomb</explosionSound>
+        <wickTicks>
+          <min>1000</min>
+          <max>1000</max>
+        </wickTicks>
+      </li>
+      <li Class="CompProperties_Usable">
+        <useJob>TriggerBomb</useJob>
+        <useLabel>Trigger bomb</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_StartWick</compClass>
+      </li>
+    </comps>
+    <specialDisplayRadius>11.9</specialDisplayRadius>
+    <designationCategory>Security</designationCategory>
+    <researchPrerequisites>
+      <li>NW_OverpressureBomb</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+    <placeWorkers>
+      <li>PlaceWorker_OnSteamGeyser</li>
+    </placeWorkers>
+  </ThingDef>
+</Defs>

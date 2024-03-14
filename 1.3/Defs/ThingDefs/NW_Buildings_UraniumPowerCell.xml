@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>UraniumPowerCell</defName>
+    <label>uranium power cell</label>
+    <description>Generates free energy by nuclear reactions of uranium. 220 uranium produces 3000Wh during 1 year.</description>
+    <graphicData>
+      <texPath>nw_uraniumcell</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.275, 2.55)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <category>Building</category>
+    <altitudeLayer>Building</altitudeLayer>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+    <designationCategory>Power</designationCategory>
+    <pathCost>70</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <canOverlapZones>false</canOverlapZones>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <statBases>
+      <MarketValue>1750</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Mass>20</Mass>
+      <WorkToBuild>3000</WorkToBuild>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <size>(1, 2)</size>
+    <costList>
+      <Plasteel>175</Plasteel>
+      <Uranium>220</Uranium>
+      <ComponentIndustrial>7</ComponentIndustrial>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <building>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-3000</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>3</fuelConsumptionRate>
+        <fuelCapacity>220</fuelCapacity>
+        <destroyOnNoFuel>true</destroyOnNoFuel>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <initialConfigurableTargetFuelLevel>30</initialConfigurableTargetFuelLevel>
+        <fuelFilter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </fuelFilter>
+        <initialFuelPercent>1</initialFuelPercent>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>8</explosiveRadius>
+        <explosiveDamageType>Flame</explosiveDamageType>
+      </li>
+    </comps>
+    <resourcesFractionWhenDeconstructed>0.2</resourcesFractionWhenDeconstructed>
+    <researchPrerequisites>
+      <li>NW_UraniumPowerCell</li>
+    </researchPrerequisites>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <tradeability>Sellable</tradeability>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>Excavator</defName>
+    <label>excavator drill</label>
+    <description>Drill the soil to create natural wells. After be triggered (like artifacts, mortars etc), needs 3 days to complete the drill.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>nw_excavator</texPath>
+      <drawSize>4,6</drawSize>
+      <shadowData>
+        <volume>(0.6,4,0.8)</volume>
+        <offset>(1,4,-1)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.3,0.3,0.4,0.4)</rect>
+      </damageData>
+    </graphicData>
+    <uiIconPath>nw_excavator_icon</uiIconPath>
+    <size>1,1</size>
+    <altitudeLayer>Item</altitudeLayer>
+    <drawerType>RealtimeOnly</drawerType>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <stealable>false</stealable>
+    <useHitPoints>False</useHitPoints>
+    <statBases>
+      <WorkToBuild>3000</WorkToBuild>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <building>
+      <deconstructible>false</deconstructible>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <passability>Impassable</passability>
+    <designationCategory>Misc</designationCategory>
+    <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+    <costList>
+      <Steel>350</Steel>
+      <Silver>1000</Silver>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>0.1</explosiveRadius>
+        <explosiveDamageType>FakeExplosion</explosiveDamageType>
+        <postExplosionSpawnThingDef>SteamGeyser</postExplosionSpawnThingDef>
+        <postExplosionSpawnChance>1</postExplosionSpawnChance>
+        <explosionEffect>ExcavatorExplosion</explosionEffect>
+        <explosionSound>Explosion_Excavator</explosionSound>
+        <startWickHitPointsPercent>100</startWickHitPointsPercent>
+        <wickTicks>180000</wickTicks>
+        <!-- 60000 = 1 days !-->
+      </li>
+      <li Class="CompProperties_Usable">
+        <useJob>TriggerExcavator</useJob>
+        <useLabel>Trigger the excavator</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_StartWick</compClass>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_NeverAdjacentUnstandable</li>
+      <li>PlaceWorker_NotUnderRoof</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>NW_NaturalWells</li>
+    </researchPrerequisites>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+  </ThingDef>
+</Defs>

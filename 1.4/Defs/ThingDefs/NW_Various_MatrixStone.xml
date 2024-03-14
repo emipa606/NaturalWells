@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkMatrix</defName>
+    <label>matrix chunk</label>
+    <graphicData>
+      <texPath>MatrixChunk</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <flipExtraRotation>80</flipExtraRotation>
+      <color>(221,221,221)</color>
+    </graphicData>
+    <statBases>
+      <Mass>40</Mass>
+    </statBases>
+    <pathCost>1</pathCost>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksMatrix>60</BlocksMatrix>
+    </butcherProducts>
+  </ThingDef>
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksMatrix</defName>
+    <label>matrix blocks</label>
+    <description>Blocks of solid matrix stone. Matrix is a millenar rock very resistant.</description>
+    <graphicData>
+      <color>(221,221,221)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.8</MarketValue>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>0.8</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(221,221,221)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>matrix</stuffAdjective>
+      <statFactors>
+        <Beauty>1.8</Beauty>
+        <MarketValue>0.9</MarketValue>
+        <MaxHitPoints>2</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+</Defs>

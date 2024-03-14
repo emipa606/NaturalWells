@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>NW_PoweredDrill</defName>
+    <label>powered drill</label>
+    <description>Drill? With this machine you don't drill, you just dream with your favorite resource and see him become real. Requires a lot of work and a huge amount of electricity. Works faster if linked with one ground penetratingscanner.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>nw_powereddrill</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3.5,3.51)</drawSize>
+      <drawRotated>false</drawRotated>
+      <shadowData>
+        <volume>(1.34,4,0.4)</volume>
+        <offset>(0,4,-1.2)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.28,1.25,2.3,2.6)</rect>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>false</castEdgeShadows>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <size>(3,3)</size>
+    <constructEffect>ConstructMetal</constructEffect>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>Repair</repairEffect>
+    <designationCategory>Production</designationCategory>
+    <costList>
+      <Plasteel>475</Plasteel>
+      <Silver>3250</Silver>
+      <Uranium>36</Uranium>
+      <ComponentSpacer>8</ComponentSpacer>
+    </costList>
+    <rotatable>false</rotatable>
+    <passability>PassThroughOnly</passability>
+    <pathCost>55</pathCost>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,-2)</interactionCellOffset>
+    <placeWorkers>
+      <li>PlaceWorker_OnSteamGeyser</li>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <statBases>
+      <MarketValue>5000</MarketValue>
+      <WorkToBuild>4000</WorkToBuild>
+      <MaxHitPoints>550</MaxHitPoints>
+      <Beauty>-15</Beauty>
+      <Mass>25</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>2000</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>GroundPenetratingScanner</li>
+        </linkableFacilities>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>8</explosiveRadius>
+        <explosiveDamageType>Flame</explosiveDamageType>
+      </li>
+    </comps>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <researchPrerequisites>
+      <li>NW_PoweredDrill</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+    <resourcesFractionWhenDeconstructed>0.2</resourcesFractionWhenDeconstructed>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+  </ThingDef>
+</Defs>

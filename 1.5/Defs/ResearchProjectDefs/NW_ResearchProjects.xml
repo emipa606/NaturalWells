@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Column 1 -->
+  <ResearchProjectDef>
+    <defName>NW_AdvancedStoneCutting</defName>
+    <label>advanced stonecutting</label>
+    <description>Allows you to cuts the millenarian chunk Matrix into every type of block with high efficiency.</description>
+    <baseCost>1200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Stonecutting</li>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <tab>NW_ResearchTab</tab>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0.5</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>NW_NaturalWells</defName>
+    <label>natural wells</label>
+    <description>Allows you to build excavator to create natural wells. They supports specific machines to various purposes.</description>
+    <baseCost>1800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <tab>NW_ResearchTab</tab>
+    <researchViewX>0</researchViewX>
+    <researchViewY>2.5</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>NW_UraniumPowerCell</defName>
+    <label>uranium power cell</label>
+    <description>Allows you to build a special battery that generate a huge amount of eletrcity using uranium.</description>
+    <baseCost>2500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+      <li>MultiAnalyzer</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <tab>NW_ResearchTab</tab>
+    <researchViewX>0</researchViewX>
+    <researchViewY>4.5</researchViewY>
+  </ResearchProjectDef>
+  <!-- Column 2 -->
+  <ResearchProjectDef>
+    <defName>GeothermalPower</defName>
+    <label>geothermal power</label>
+    <description>Allows you to build geothermal power plants on top of steam geysers, for uninterrupted power.</description>
+    <baseCost>1800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>NW_NaturalWells</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <tab>NW_ResearchTab</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>NW_PoweredDrill</defName>
+    <label>powered drill</label>
+    <description>Allows you to build powered drill on top of steam geysers, for extraction of any resource. Needs a huge amount of work and eletricity.</description>
+    <baseCost>1600</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>NW_NaturalWells</li>
+      <li>DeepDrilling</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>GroundPenetratingScanner</li>
+    </requiredResearchFacilities>
+    <tab>NW_ResearchTab</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>NW_SteelExtractor</defName>
+    <label>steel extractor</label>
+    <description>Allows you to build steel extractor on top of steam geysers, for uninterrupted generation of steel during 1 year.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>NW_NaturalWells</li>
+      <li>MultiAnalyzer</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>GroundPenetratingScanner</li>
+    </requiredResearchFacilities>
+    <tab>NW_ResearchTab</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>NW_OverpressureBomb</defName>
+    <label>overpressure bomb</label>
+    <description>Allows you to build a overpressure bomb on top of steam geysers. After be manually activated, causes a big and devastating explosion.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>NW_NaturalWells</li>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <tab>NW_ResearchTab</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>4</researchViewY>
+  </ResearchProjectDef>
+  <!-- Column 3 -->
+  <ResearchProjectDef>
+    <defName>NW_ExtractRareMinerals</defName>
+    <label>rare minerals</label>
+    <description>Your powered drill can go more deeper under the crust and extracts silver and plasteel.</description>
+    <baseCost>1100</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>NW_PoweredDrill</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>GroundPenetratingScanner</li>
+    </requiredResearchFacilities>
+    <tab>NW_ResearchTab</tab>
+    <researchViewX>2</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+  <!-- Column 4 -->
+  <ResearchProjectDef>
+    <defName>NW_ExtractPreciousMinerals</defName>
+    <label>precious metal</label>
+    <description>Your powered drill can go REALLY deeper under the soul of planet and extracts jade, gold and uranium.</description>
+    <baseCost>800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>NW_ExtractRareMinerals</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>GroundPenetratingScanner</li>
+    </requiredResearchFacilities>
+    <tab>NW_ResearchTab</tab>
+    <researchViewX>3</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+</Defs>

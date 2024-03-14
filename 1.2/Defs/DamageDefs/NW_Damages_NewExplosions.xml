@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DamageDef>
+    <defName>FakeExplosion</defName>
+    <label>fake explosion</label>
+    <externalViolence>false</externalViolence>
+    <defaultDamage>0</defaultDamage>
+    <explosionHeatEnergyPerCell>0</explosionHeatEnergyPerCell>
+  </DamageDef>
+  <DamageDef ParentName="Bomb">
+    <defName>NW_OverpressureBomb</defName>
+    <label>overpressure bomb</label>
+    <armorCategory>Blunt</armorCategory>
+    <defaultDamage>999999999</defaultDamage>
+    <explosionHeatEnergyPerCell>10000</explosionHeatEnergyPerCell>
+  </DamageDef>
+</Defs>

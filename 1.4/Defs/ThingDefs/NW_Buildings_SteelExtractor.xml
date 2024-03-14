@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>RRSteelExtractor</defName>
+    <label>steel extractor</label>
+    <description>Automatically extract steel from wells during 1 year. Must be placed on a natural well and requires a huge amount of electricity.</description>
+    <graphicData>
+      <texPath>nw_steelextractor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <size>(1, 1)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MarketValue>5000</MarketValue>
+      <WorkToBuild>7500</WorkToBuild>
+      <MaxHitPoints>140</MaxHitPoints>
+      <Beauty>-10</Beauty>
+      <Mass>15</Mass>
+    </statBases>
+    <costList>
+      <Plasteel>125</Plasteel>
+      <Silver>750</Silver>
+      <Uranium>20</Uranium>
+      <ComponentIndustrial>9</ComponentIndustrial>
+    </costList>
+    <tickerType>Normal</tickerType>
+    <fillPercent>0.6</fillPercent>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>0.2</resourcesFractionWhenDeconstructed>
+    <passability>Impassable</passability>
+    <designationCategory>Production</designationCategory>
+    <rotatable>false</rotatable>
+    <canOverlapZones>false</canOverlapZones>
+    <tradeability>Sellable</tradeability>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>1200</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Spawner">
+        <requiresPower>true</requiresPower>
+        <thingToSpawn>Steel</thingToSpawn>
+        <spawnCount>150</spawnCount>
+        <spawnIntervalRange>
+          <min>120000</min>
+          <max>120000</max>
+        </spawnIntervalRange>
+        <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+        <showMessageIfOwned>false</showMessageIfOwned>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3</explosiveRadius>
+        <explosiveDamageType>Flame</explosiveDamageType>
+      </li>
+      <li Class="CompProperties_Lifespan">
+        <lifespanTicks>3600000</lifespanTicks>
+        <!-- 1 day = 60.000 ticks !-->
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>NW_SteelExtractor</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>11</constructionSkillPrerequisite>
+    <placeWorkers>
+      <li>PlaceWorker_OnSteamGeyser</li>
+    </placeWorkers>
+  </ThingDef>
+</Defs>
