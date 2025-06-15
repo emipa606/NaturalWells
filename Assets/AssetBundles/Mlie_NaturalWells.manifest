@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 2485410832
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 43265f223aaea52ed050d4f6274df827
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 43265f223aaea52ed050d4f6274df827
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.NaturalWells/Textures/nw_uraniumcell_east.png
+- Assets/Data/Mlie.NaturalWells/Textures/nw_tablestonecutter_east.png
+- Assets/Data/Mlie.NaturalWells/Textures/MatrixChunk/nw_rockc.png
+- Assets/Data/Mlie.NaturalWells/Textures/MatrixChunk/nw_rocka.png
+- Assets/Data/Mlie.NaturalWells/Textures/nw_uraniumcell_north.png
+- Assets/Data/Mlie.NaturalWells/Textures/nw_tablestonecutter_north.png
+- Assets/Data/Mlie.NaturalWells/Textures/nw_steelextractor.png
+- Assets/Data/Mlie.NaturalWells/Textures/nw_steamgeyser.png
+- Assets/Data/Mlie.NaturalWells/Textures/nw_excavator_icon.png
+- Assets/Data/Mlie.NaturalWells/Textures/nw_unfinishedresource.png
+- Assets/Data/Mlie.NaturalWells/Textures/nw_overpressurebomb.png
+- Assets/Data/Mlie.NaturalWells/Textures/nw_powereddrill.png
+- Assets/Data/Mlie.NaturalWells/Textures/nw_excavator.png
+- Assets/Data/Mlie.NaturalWells/Textures/MatrixChunk/nw_rockb.png
+Dependencies: []

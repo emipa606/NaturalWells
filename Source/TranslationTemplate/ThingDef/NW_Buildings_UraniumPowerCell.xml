@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: uranium power cell -->
+  <UraniumPowerCell.label>uranium power cell</UraniumPowerCell.label>
+  <!-- EN: Generates free energy by nuclear reactions of uranium. 220 uranium produces 3000Wh during 1 year. -->
+  <UraniumPowerCell.description>Generates free energy by nuclear reactions of uranium. 220 uranium produces 3000Wh during 1 year.</UraniumPowerCell.description>
+</LanguageData>

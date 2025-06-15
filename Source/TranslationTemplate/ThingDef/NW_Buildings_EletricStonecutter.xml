@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: eletric stonecutter's table -->
+  <TableEletricStonecutter.label>eletric stonecutter's table</TableEletricStonecutter.label>
+  <!-- EN: A work table equipped to cut matrix and rough stone with high efficiency. Can work without electricity at 40% of normal speed. -->
+  <TableEletricStonecutter.description>A work table equipped to cut matrix and rough stone with high efficiency. Can work without electricity at 40% of normal speed.</TableEletricStonecutter.description>
+</LanguageData>

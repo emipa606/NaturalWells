@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make matrix blocks -->
+  <MakeMatrixBlocks.label>make matrix blocks</MakeMatrixBlocks.label>
+  <!-- EN: Cuts matrix chunks into usable blocks. -->
+  <MakeMatrixBlocks.description>Cuts matrix chunks into usable blocks.</MakeMatrixBlocks.description>
+  <!-- EN: Cutting stone blocks from chunk. -->
+  <MakeMatrixBlocks.jobString>Cutting stone blocks from chunk.</MakeMatrixBlocks.jobString>
+  <!-- EN: make blocks from any chunks -->
+  <NWMakeBlocksAny.label>make blocks from any chunks</NWMakeBlocksAny.label>
+  <!-- EN: Cuts rock chunks 3 times more fast than the normal table stonecutter. -->
+  <NWMakeBlocksAny.description>Cuts rock chunks 3 times more fast than the normal table stonecutter.</NWMakeBlocksAny.description>
+  <!-- EN: Cutting stone blocks from chunk. -->
+  <NWMakeBlocksAny.jobString>Cutting stone blocks from chunk.</NWMakeBlocksAny.jobString>
+  <!-- EN: make granite blocks from matrix -->
+  <NWMakeBlocksGranite.label>make granite blocks from matrix</NWMakeBlocksGranite.label>
+  <!-- EN: Cuts matrix chunks into usable granite blocks. -->
+  <NWMakeBlocksGranite.description>Cuts matrix chunks into usable granite blocks.</NWMakeBlocksGranite.description>
+  <!-- EN: Cutting stone blocks from chunk. -->
+  <NWMakeBlocksGranite.jobString>Cutting stone blocks from chunk.</NWMakeBlocksGranite.jobString>
+  <!-- EN: make limestone blocks from matrix -->
+  <NWMakeBlocksLimestone.label>make limestone blocks from matrix</NWMakeBlocksLimestone.label>
+  <!-- EN: Cuts matrix chunks into usable limestone blocks. -->
+  <NWMakeBlocksLimestone.description>Cuts matrix chunks into usable limestone blocks.</NWMakeBlocksLimestone.description>
+  <!-- EN: Cutting stone blocks from chunk. -->
+  <NWMakeBlocksLimestone.jobString>Cutting stone blocks from chunk.</NWMakeBlocksLimestone.jobString>
+  <!-- EN: make marble blocks from matrix -->
+  <NWMakeBlocksMarble.label>make marble blocks from matrix</NWMakeBlocksMarble.label>
+  <!-- EN: Cuts matrix chunks into usable marble blocks. -->
+  <NWMakeBlocksMarble.description>Cuts matrix chunks into usable marble blocks.</NWMakeBlocksMarble.description>
+  <!-- EN: Cutting stone blocks from chunk. -->
+  <NWMakeBlocksMarble.jobString>Cutting stone blocks from chunk.</NWMakeBlocksMarble.jobString>
+  <!-- EN: make sandstone blocks from matrix -->
+  <NWMakeBlocksSandstone.label>make sandstone blocks from matrix</NWMakeBlocksSandstone.label>
+  <!-- EN: Cuts matrix chunks into usable sandstone blocks. -->
+  <NWMakeBlocksSandstone.description>Cuts matrix chunks into usable sandstone blocks.</NWMakeBlocksSandstone.description>
+  <!-- EN: Cutting stone blocks from chunk. -->
+  <NWMakeBlocksSandstone.jobString>Cutting stone blocks from chunk.</NWMakeBlocksSandstone.jobString>
+  <!-- EN: make slate blocks from matrix -->
+  <NWMakeBlocksSlate.label>make slate blocks from matrix</NWMakeBlocksSlate.label>
+  <!-- EN: Cuts matrix chunks into usable slate blocks. -->
+  <NWMakeBlocksSlate.description>Cuts matrix chunks into usable slate blocks.</NWMakeBlocksSlate.description>
+  <!-- EN: Cutting stone blocks from chunk. -->
+  <NWMakeBlocksSlate.jobString>Cutting stone blocks from chunk.</NWMakeBlocksSlate.jobString>
+</LanguageData>

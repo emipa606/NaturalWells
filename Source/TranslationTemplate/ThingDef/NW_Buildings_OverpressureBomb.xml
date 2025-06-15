@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: overpressure bomb -->
+  <NW_OverpressureBomb.label>overpressure bomb</NW_OverpressureBomb.label>
+  <!-- EN: A big bomb fueled by gas pressure from natural wells. When manually triggered or suffers EMP damage, causes a deadly explosion in a large area after a long delay. Doesn't active with other damages and don't causes fire. -->
+  <NW_OverpressureBomb.description>A big bomb fueled by gas pressure from natural wells. When manually triggered or suffers EMP damage, causes a deadly explosion in a large area after a long delay. Doesn't active with other damages and don't causes fire.</NW_OverpressureBomb.description>
+  <!-- EN: Trigger bomb -->
+  <NW_OverpressureBomb.comps.CompUsable.useLabel>Trigger bomb</NW_OverpressureBomb.comps.CompUsable.useLabel>
+</LanguageData>

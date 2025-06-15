@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: triggering bomb. -->
+  <TriggerBomb.reportString>triggering bomb.</TriggerBomb.reportString>
+  <!-- EN: triggering excavator drill. -->
+  <TriggerExcavator.reportString>triggering excavator drill.</TriggerExcavator.reportString>
+</LanguageData>

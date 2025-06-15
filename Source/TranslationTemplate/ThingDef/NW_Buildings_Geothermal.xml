@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: geothermal compact generator -->
+  <GeothermalCompact.label>geothermal compact generator</GeothermalCompact.label>
+  <!-- EN: Produces electricity from geothermal steam geysers. Must be placed on a geyser. -->
+  <GeothermalCompact.description>Produces electricity from geothermal steam geysers. Must be placed on a geyser.</GeothermalCompact.description>
+  <!-- EN: geothermal generator -->
+  <GeothermalGenerator.label>geothermal generator</GeothermalGenerator.label>
+  <!-- EN: Produces electricity from geothermal steam geysers. Must be placed on a geyser. -->
+  <GeothermalGenerator.description>Produces electricity from geothermal steam geysers. Must be placed on a geyser.</GeothermalGenerator.description>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: excavator drill -->
+  <Excavator.label>excavator drill</Excavator.label>
+  <!-- EN: Drill the soil to create natural wells. After be triggered (like artifacts, mortars etc), needs 3 days to complete the drill. -->
+  <Excavator.description>Drill the soil to create natural wells. After be triggered (like artifacts, mortars etc), needs 3 days to complete the drill.</Excavator.description>
+  <!-- EN: Trigger the excavator -->
+  <Excavator.comps.CompUsable.useLabel>Trigger the excavator</Excavator.comps.CompUsable.useLabel>
+</LanguageData>

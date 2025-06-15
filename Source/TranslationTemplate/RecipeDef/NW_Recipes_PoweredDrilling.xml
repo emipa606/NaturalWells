@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: drill chemfuel -->
+  <NW_ExtractChemfuel.label>drill chemfuel</NW_ExtractChemfuel.label>
+  <!-- EN: Drill chemfuel from a natural weel. -->
+  <NW_ExtractChemfuel.description>Drill chemfuel from a natural weel.</NW_ExtractChemfuel.description>
+  <!-- EN: Drilling chemfuel. -->
+  <NW_ExtractChemfuel.jobString>Drilling chemfuel.</NW_ExtractChemfuel.jobString>
+  <!-- EN: drill gold -->
+  <NW_ExtractGold.label>drill gold</NW_ExtractGold.label>
+  <!-- EN: Drill gold from a natural weel. -->
+  <NW_ExtractGold.description>Drill gold from a natural weel.</NW_ExtractGold.description>
+  <!-- EN: Drilling gold. -->
+  <NW_ExtractGold.jobString>Drilling gold.</NW_ExtractGold.jobString>
+  <!-- EN: drill jade -->
+  <NW_ExtractJade.label>drill jade</NW_ExtractJade.label>
+  <!-- EN: Drill jade from a natural weel. -->
+  <NW_ExtractJade.description>Drill jade from a natural weel.</NW_ExtractJade.description>
+  <!-- EN: Drilling jade. -->
+  <NW_ExtractJade.jobString>Drilling jade.</NW_ExtractJade.jobString>
+  <!-- EN: drill matrix chunks -->
+  <NW_ExtractMatrix.label>drill matrix chunks</NW_ExtractMatrix.label>
+  <!-- EN: Drill matrix chunks from a natural weel. -->
+  <NW_ExtractMatrix.description>Drill matrix chunks from a natural weel.</NW_ExtractMatrix.description>
+  <!-- EN: Drilling matrix chunks. -->
+  <NW_ExtractMatrix.jobString>Drilling matrix chunks.</NW_ExtractMatrix.jobString>
+  <!-- EN: drill plasteel -->
+  <NW_ExtractPlasteel.label>drill plasteel</NW_ExtractPlasteel.label>
+  <!-- EN: Drill plasteel from a natural weel. -->
+  <NW_ExtractPlasteel.description>Drill plasteel from a natural weel.</NW_ExtractPlasteel.description>
+  <!-- EN: Drilling plasteel. -->
+  <NW_ExtractPlasteel.jobString>Drilling plasteel.</NW_ExtractPlasteel.jobString>
+  <!-- EN: drill silver -->
+  <NW_ExtractSilver.label>drill silver</NW_ExtractSilver.label>
+  <!-- EN: Drill silver from a natural weel. -->
+  <NW_ExtractSilver.description>Drill silver from a natural weel.</NW_ExtractSilver.description>
+  <!-- EN: Drilling silver. -->
+  <NW_ExtractSilver.jobString>Drilling silver.</NW_ExtractSilver.jobString>
+  <!-- EN: drill steel -->
+  <NW_ExtractSteel.label>drill steel</NW_ExtractSteel.label>
+  <!-- EN: Drill steel from a natural weel. -->
+  <NW_ExtractSteel.description>Drill steel from a natural weel.</NW_ExtractSteel.description>
+  <!-- EN: Drilling steel. -->
+  <NW_ExtractSteel.jobString>Drilling steel.</NW_ExtractSteel.jobString>
+  <!-- EN: drill uranium -->
+  <NW_ExtractUranium.label>drill uranium</NW_ExtractUranium.label>
+  <!-- EN: Drill uranium from a natural weel. -->
+  <NW_ExtractUranium.description>Drill uranium from a natural weel.</NW_ExtractUranium.description>
+  <!-- EN: Drilling uranium. -->
+  <NW_ExtractUranium.jobString>Drilling uranium.</NW_ExtractUranium.jobString>
+  <!-- EN: drill wood -->
+  <NW_ExtractWood.label>drill wood</NW_ExtractWood.label>
+  <!-- EN: Drill wood from a natural weel. -->
+  <NW_ExtractWood.description>Drill wood from a natural weel.</NW_ExtractWood.description>
+  <!-- EN: Drilling wood. -->
+  <NW_ExtractWood.jobString>Drilling wood.</NW_ExtractWood.jobString>
+</LanguageData>

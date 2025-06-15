@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: fake explosion -->
+  <FakeExplosion.label>fake explosion</FakeExplosion.label>
+  <!-- EN: {0} has been killed. -->
+  <FakeExplosion.deathMessage>{0} has been killed.</FakeExplosion.deathMessage>
+  <!-- EN: overpressure bomb -->
+  <NW_OverpressureBomb.label>overpressure bomb</NW_OverpressureBomb.label>
+  <!-- EN: {0} has died in an explosion. -->
+  <NW_OverpressureBomb.deathMessage>{0} has died in an explosion.</NW_OverpressureBomb.deathMessage>
+</LanguageData>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: geothermal power -->
+  <GeothermalPower.label>geothermal power</GeothermalPower.label>
+  <!-- EN: Allows you to build geothermal power plants on top of steam geysers, for uninterrupted power. -->
+  <GeothermalPower.description>Allows you to build geothermal power plants on top of steam geysers, for uninterrupted power.</GeothermalPower.description>
+  <!-- EN: advanced stonecutting -->
+  <NW_AdvancedStoneCutting.label>advanced stonecutting</NW_AdvancedStoneCutting.label>
+  <!-- EN: Allows you to cuts the millenarian chunk Matrix into every type of block with high efficiency. -->
+  <NW_AdvancedStoneCutting.description>Allows you to cuts the millenarian chunk Matrix into every type of block with high efficiency.</NW_AdvancedStoneCutting.description>
+  <!-- EN: precious metal -->
+  <NW_ExtractPreciousMinerals.label>precious metal</NW_ExtractPreciousMinerals.label>
+  <!-- EN: Your powered drill can go REALLY deeper under the soul of planet and extracts jade, gold and uranium. -->
+  <NW_ExtractPreciousMinerals.description>Your powered drill can go REALLY deeper under the soul of planet and extracts jade, gold and uranium.</NW_ExtractPreciousMinerals.description>
+  <!-- EN: rare minerals -->
+  <NW_ExtractRareMinerals.label>rare minerals</NW_ExtractRareMinerals.label>
+  <!-- EN: Your powered drill can go more deeper under the crust and extracts silver and plasteel. -->
+  <NW_ExtractRareMinerals.description>Your powered drill can go more deeper under the crust and extracts silver and plasteel.</NW_ExtractRareMinerals.description>
+  <!-- EN: natural wells -->
+  <NW_NaturalWells.label>natural wells</NW_NaturalWells.label>
+  <!-- EN: Allows you to build excavator to create natural wells. They supports specific machines to various purposes. -->
+  <NW_NaturalWells.description>Allows you to build excavator to create natural wells. They supports specific machines to various purposes.</NW_NaturalWells.description>
+  <!-- EN: overpressure bomb -->
+  <NW_OverpressureBomb.label>overpressure bomb</NW_OverpressureBomb.label>
+  <!-- EN: Allows you to build a overpressure bomb on top of steam geysers. After be manually activated, causes a big and devastating explosion. -->
+  <NW_OverpressureBomb.description>Allows you to build a overpressure bomb on top of steam geysers. After be manually activated, causes a big and devastating explosion.</NW_OverpressureBomb.description>
+  <!-- EN: powered drill -->
+  <NW_PoweredDrill.label>powered drill</NW_PoweredDrill.label>
+  <!-- EN: Allows you to build powered drill on top of steam geysers, for extraction of any resource. Needs a huge amount of work and eletricity. -->
+  <NW_PoweredDrill.description>Allows you to build powered drill on top of steam geysers, for extraction of any resource. Needs a huge amount of work and eletricity.</NW_PoweredDrill.description>
+  <!-- EN: steel extractor -->
+  <NW_SteelExtractor.label>steel extractor</NW_SteelExtractor.label>
+  <!-- EN: Allows you to build steel extractor on top of steam geysers, for uninterrupted generation of steel during 1 year. -->
+  <NW_SteelExtractor.description>Allows you to build steel extractor on top of steam geysers, for uninterrupted generation of steel during 1 year.</NW_SteelExtractor.description>
+  <!-- EN: uranium power cell -->
+  <NW_UraniumPowerCell.label>uranium power cell</NW_UraniumPowerCell.label>
+  <!-- EN: Allows you to build a special battery that generate a huge amount of eletrcity using uranium. -->
+  <NW_UraniumPowerCell.description>Allows you to build a special battery that generate a huge amount of eletrcity using uranium.</NW_UraniumPowerCell.description>
+</LanguageData>

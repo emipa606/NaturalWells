@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: steel extractor -->
+  <RRSteelExtractor.label>steel extractor</RRSteelExtractor.label>
+  <!-- EN: Automatically extract steel from wells during 1 year. Must be placed on a natural well and requires a huge amount of electricity. -->
+  <RRSteelExtractor.description>Automatically extract steel from wells during 1 year. Must be placed on a natural well and requires a huge amount of electricity.</RRSteelExtractor.description>
+</LanguageData>

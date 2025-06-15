@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: matrix blocks -->
+  <BlocksMatrix.label>matrix blocks</BlocksMatrix.label>
+  <!-- EN: Blocks of solid matrix stone. Matrix is a millenar rock very resistant. -->
+  <BlocksMatrix.description>Blocks of solid matrix stone. Matrix is a millenar rock very resistant.</BlocksMatrix.description>
+  <!-- EN: matrix chunk -->
+  <ChunkMatrix.label>matrix chunk</ChunkMatrix.label>
+  <!-- EN: A chunk of rock. Can be cut into usable stone blocks. -->
+  <ChunkMatrix.description>A chunk of rock. Can be cut into usable stone blocks.</ChunkMatrix.description>
+</LanguageData>
